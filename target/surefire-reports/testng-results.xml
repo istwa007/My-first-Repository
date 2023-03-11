@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-03T23:05:05Z" name="Command line suite" finished-at="2023-03-03T23:06:41Z" duration-ms="96513">
+    <groups>
+    </groups>
+    <test started-at="2023-03-03T23:05:05Z" name="Command line test" finished-at="2023-03-03T23:06:41Z" duration-ms="96513">
+      <class name="com.crm.qa.Testcases.ContactPageTest">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.crm.qa.Testcases.ContactPageTest@3d51f06e]" started-at="2023-03-03T15:05:33Z" name="SetUp" finished-at="2023-03-03T15:05:41Z" duration-ms="7113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="CreateNewContact(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.crm.qa.Testcases.ContactPageTest@3d51f06e]" started-at="2023-03-03T15:05:41Z" name="CreateNewContact" data-provider="data" finished-at="2023-03-03T15:05:46Z" duration-ms="5552" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rohan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bhist]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[rohan2@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateNewContact -->
+        <test-method is-config="true" signature="CleanUp()[pri:0, instance:com.crm.qa.Testcases.ContactPageTest@3d51f06e]" started-at="2023-03-03T15:05:46Z" name="CleanUp" finished-at="2023-03-03T15:05:46Z" duration-ms="222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CleanUp -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.crm.qa.Testcases.ContactPageTest@3d51f06e]" started-at="2023-03-03T15:05:46Z" name="SetUp" finished-at="2023-03-03T15:05:54Z" duration-ms="7288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="CreateNewContact(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.crm.qa.Testcases.ContactPageTest@3d51f06e]" started-at="2023-03-03T15:05:54Z" name="CreateNewContact" data-provider="data" finished-at="2023-03-03T15:05:59Z" duration-ms="5465" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shweta]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[singh]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[shsingh@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateNewContact -->
+        <test-method is-config="true" signature="CleanUp()[pri:0, instance:com.crm.qa.Testcases.ContactPageTest@3d51f06e]" started-at="2023-03-03T15:05:59Z" name="CleanUp" finished-at="2023-03-03T15:05:59Z" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CleanUp -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.crm.qa.Testcases.ContactPageTest@3d51f06e]" started-at="2023-03-03T15:05:59Z" name="SetUp" finished-at="2023-03-03T15:06:07Z" duration-ms="7547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="CreateNewContact(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.crm.qa.Testcases.ContactPageTest@3d51f06e]" started-at="2023-03-03T15:06:07Z" name="CreateNewContact" data-provider="data" finished-at="2023-03-03T15:06:12Z" duration-ms="5441" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Himanshi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Batra]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[himanshib@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateNewContact -->
+        <test-method is-config="true" signature="CleanUp()[pri:0, instance:com.crm.qa.Testcases.ContactPageTest@3d51f06e]" started-at="2023-03-03T15:06:12Z" name="CleanUp" finished-at="2023-03-03T15:06:12Z" duration-ms="167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CleanUp -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.crm.qa.Testcases.ContactPageTest@3d51f06e]" started-at="2023-03-03T15:06:12Z" name="SetUp" finished-at="2023-03-03T15:06:19Z" duration-ms="6917" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="CreateNewContact(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.crm.qa.Testcases.ContactPageTest@3d51f06e]" started-at="2023-03-03T15:06:19Z" name="CreateNewContact" data-provider="data" finished-at="2023-03-03T15:06:25Z" duration-ms="5567" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kavita]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kaushik]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[kkaushik@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateNewContact -->
+        <test-method is-config="true" signature="CleanUp()[pri:0, instance:com.crm.qa.Testcases.ContactPageTest@3d51f06e]" started-at="2023-03-03T15:06:25Z" name="CleanUp" finished-at="2023-03-03T15:06:25Z" duration-ms="190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CleanUp -->
+      </class> <!-- com.crm.qa.Testcases.ContactPageTest -->
+      <class name="com.crm.qa.Testcases.HomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.Testcases.HomePageTest@7ed7259e]" started-at="2023-03-03T15:05:05Z" name="setUp" finished-at="2023-03-03T15:05:14Z" duration-ms="8899" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="label()[pri:0, instance:com.crm.qa.Testcases.HomePageTest@7ed7259e]" started-at="2023-03-03T15:05:14Z" name="label" finished-at="2023-03-03T15:05:14Z" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- label -->
+        <test-method is-config="true" signature="cleanup()[pri:0, instance:com.crm.qa.Testcases.HomePageTest@7ed7259e]" started-at="2023-03-03T15:05:14Z" name="cleanup" finished-at="2023-03-03T15:05:14Z" duration-ms="227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.Testcases.HomePageTest@7ed7259e]" started-at="2023-03-03T15:05:14Z" name="setUp" finished-at="2023-03-03T15:05:21Z" duration-ms="7146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="newcontact()[pri:0, instance:com.crm.qa.Testcases.HomePageTest@7ed7259e]" started-at="2023-03-03T15:05:21Z" name="newcontact" finished-at="2023-03-03T15:05:25Z" duration-ms="4117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newcontact -->
+        <test-method is-config="true" signature="cleanup()[pri:0, instance:com.crm.qa.Testcases.HomePageTest@7ed7259e]" started-at="2023-03-03T15:05:25Z" name="cleanup" finished-at="2023-03-03T15:05:25Z" duration-ms="249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+      </class> <!-- com.crm.qa.Testcases.HomePageTest -->
+      <class name="com.crm.qa.Testcases.LoginPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.crm.qa.Testcases.LoginPageTest@28eaa59a]" started-at="2023-03-03T15:05:25Z" name="setup" finished-at="2023-03-03T15:05:29Z" duration-ms="3737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validatetitletest()[pri:1, instance:com.crm.qa.Testcases.LoginPageTest@28eaa59a]" started-at="2023-03-03T15:05:29Z" name="validatetitletest" finished-at="2023-03-03T15:05:32Z" duration-ms="3012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatetitletest -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.crm.qa.Testcases.LoginPageTest@28eaa59a]" started-at="2023-03-03T15:05:32Z" name="quit" finished-at="2023-03-03T15:05:32Z" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.crm.qa.Testcases.LoginPageTest@28eaa59a]" started-at="2023-03-03T15:06:25Z" name="setup" finished-at="2023-03-03T15:06:29Z" duration-ms="3600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateLogoTest()[pri:2, instance:com.crm.qa.Testcases.LoginPageTest@28eaa59a]" started-at="2023-03-03T15:06:29Z" name="validateLogoTest" finished-at="2023-03-03T15:06:32Z" duration-ms="3124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogoTest -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.crm.qa.Testcases.LoginPageTest@28eaa59a]" started-at="2023-03-03T15:06:32Z" name="quit" finished-at="2023-03-03T15:06:32Z" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.crm.qa.Testcases.LoginPageTest@28eaa59a]" started-at="2023-03-03T15:06:32Z" name="setup" finished-at="2023-03-03T15:06:36Z" duration-ms="3550" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest()[pri:3, instance:com.crm.qa.Testcases.LoginPageTest@28eaa59a]" started-at="2023-03-03T15:06:36Z" name="loginTest" finished-at="2023-03-03T15:06:41Z" duration-ms="5390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.crm.qa.Testcases.LoginPageTest@28eaa59a]" started-at="2023-03-03T15:06:41Z" name="quit" finished-at="2023-03-03T15:06:41Z" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.crm.qa.Testcases.LoginPageTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
