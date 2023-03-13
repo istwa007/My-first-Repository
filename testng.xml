@@ -6,8 +6,8 @@
 </listeners>
   <test thread-count="5" name="Test">
     <classes>
+     <class name="com.crm.qa.Testcases.LoginPageTest"/>
       <class name="com.crm.qa.Testcases.HomePageTest"/>
-      <class name="com.crm.qa.Testcases.LoginPageTest"/>
       <class name="com.crm.qa.Testcases.ContactPageTest"/>
     </classes>
   </test> <!-- Test -->
