@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.crm.qa.Testcases.LoginPageTest">
+      <class name="com.crm.qa.Testcases.HomePageTest">
         <methods>
-          <include name="loginTest"/>
-          <include name="setup"/>
-          <include name="quit"/>
+          <include name="label"/>
+          <include name="setUp"/>
+          <include name="cleanup"/>
+          <include name="newcontact"/>
         </methods>
-      </class> <!-- com.crm.qa.Testcases.LoginPageTest -->
+      </class> <!-- com.crm.qa.Testcases.HomePageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
