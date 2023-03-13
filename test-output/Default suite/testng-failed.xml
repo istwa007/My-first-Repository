@@ -8,7 +8,6 @@
           <include name="label"/>
           <include name="setUp"/>
           <include name="cleanup"/>
-          <include name="newcontact"/>
         </methods>
       </class> <!-- com.crm.qa.Testcases.HomePageTest -->
     </classes>
