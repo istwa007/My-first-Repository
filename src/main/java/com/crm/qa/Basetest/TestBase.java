@@ -11,8 +11,13 @@ import org.openqa.selenium.chrome.ChromeDriver;
 //import org.openqa.selenium.firefox.FirefoxDriver;
 //import org.openqa.selenium.safari.SafariDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 
 import com.crm.qa.util.TestUtil;
+
+import java.net.MalformedURLException;
+import java.net.URL;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -40,7 +45,7 @@ public class TestBase {
 		}
 		
 
-		public static void initialization()
+		public static void initialization() throws MalformedURLException
 		{
 			ChromeOptions co=new ChromeOptions();
 			co.addArguments("headless");
@@ -48,9 +53,13 @@ public class TestBase {
 			String browsername= prop.getProperty("browser");
 			
 			if(browsername.contentEquals("chrome")){
-			WebDriverManager.chromedriver().setup();
-			driver= new ChromeDriver(co);	
-		
+			//WebDriverManager.chromedriver().setup();
+			//driver= new ChromeDriver(co);	
+			DesiredCapabilities cap=new DesiredCapabilities();
+			cap.setBrowserName(browsername);
+			
+				driver =new RemoteWebDriver(new URL("http://3.92.237.233:4444"),cap);
+			
 	}
 			/*else if (browsername.contentEquals("Firefox")){
 				WebDriverManager.firefoxdriver().setup();

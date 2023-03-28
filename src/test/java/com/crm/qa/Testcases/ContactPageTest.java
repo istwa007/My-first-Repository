@@ -1,6 +1,8 @@
 package com.crm.qa.Testcases;
 
 
+import java.net.MalformedURLException;
+
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
@@ -21,7 +23,7 @@ public class ContactPageTest extends TestBase{
 	
 	
 	@BeforeMethod
-	public void SetUp() {
+	public void SetUp() throws MalformedURLException {
 		initialization();
 		testutil=new TestUtil();
 		login=new LoginPage();

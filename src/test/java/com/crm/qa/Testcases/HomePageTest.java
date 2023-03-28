@@ -1,5 +1,7 @@
 package com.crm.qa.Testcases;
 
+import java.net.MalformedURLException;
+
 import org.testng.AssertJUnit;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -23,7 +25,7 @@ public class HomePageTest extends TestBase{
 
 
 	@BeforeMethod
-	public void setUp() {
+	public void setUp() throws MalformedURLException {
 	initialization();
 	testutil= new TestUtil();
 	login=new LoginPage();
