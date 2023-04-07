@@ -3,6 +3,8 @@ package com.crm.qa.Basetest;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
@@ -15,9 +17,6 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
 import com.crm.qa.util.TestUtil;
-
-import java.net.MalformedURLException;
-import java.net.URL;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -49,16 +48,17 @@ public class TestBase {
 		{
 			ChromeOptions co=new ChromeOptions();
 			co.addArguments("headless");
-			
+			co.addArguments("--disable-dev-shm-usage");
 			String browsername= prop.getProperty("browser");
 			
 			if(browsername.contentEquals("chrome")){
-			//WebDriverManager.chromedriver().setup();
-			//driver= new ChromeDriver(co);	
-				DesiredCapabilities cap=new DesiredCapabilities();
-				cap.setBrowserName(browsername);
+				WebDriverManager.chromedriver().setup();
+				driver= new ChromeDriver(co);	
+				
+				//DesiredCapabilities cap=new DesiredCapabilities();
+				//cap.setBrowserName(browsername);
 
-				driver =new RemoteWebDriver(new URL("http://54.164.215.226:4444"),cap);
+				//driver =new RemoteWebDriver(new URL("http://ec2-54-164-215-226.compute-1.amazonaws.com:4444"),cap);
 			
 	}
 			/*else if (browsername.contentEquals("Firefox")){
