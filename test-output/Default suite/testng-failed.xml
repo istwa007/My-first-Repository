@@ -6,6 +6,7 @@
       <class name="com.crm.qa.Testcases.LoginPageTest">
         <methods>
           <include name="loginTest"/>
+          <include name="validatetitletest"/>
           <include name="setup"/>
           <include name="quit"/>
           <include name="validateLogoTest"/>

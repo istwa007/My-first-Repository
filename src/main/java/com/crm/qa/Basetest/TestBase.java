@@ -55,10 +55,10 @@ public class TestBase {
 			if(browsername.contentEquals("chrome")){
 			//WebDriverManager.chromedriver().setup();
 			//driver= new ChromeDriver(co);	
-			DesiredCapabilities cap=new DesiredCapabilities();
-			cap.setBrowserName(browsername);
-			
-				driver =new RemoteWebDriver(new URL("http://3.92.237.233:4444"),cap);
+				DesiredCapabilities cap=new DesiredCapabilities();
+				cap.setBrowserName(browsername);
+
+				driver =new RemoteWebDriver(new URL("http://54.164.215.226:4444"),cap);
 			
 	}
 			/*else if (browsername.contentEquals("Firefox")){
