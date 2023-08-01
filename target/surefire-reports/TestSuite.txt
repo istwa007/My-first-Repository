@@ -1,79 +1,28 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 13, Failures: 7, Errors: 0, Skipped: 5, Time elapsed: 96.427 s <<< FAILURE! - in TestSuite
-label(com.crm.qa.Testcases.HomePageTest)  Time elapsed: 20.065 s  <<< FAILURE!
-org.openqa.selenium.NoSuchFrameException: 
-No frame element found by name or id mainpanel
+Tests run: 11, Failures: 2, Errors: 0, Skipped: 9, Time elapsed: 151.313 s <<< FAILURE! - in TestSuite
+setUp(com.crm.qa.Testcases.HomePageTest)  Time elapsed: 75.958 s  <<< FAILURE!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
 Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
-System info: host: 'Ronaks-MacBook-Pro.local', ip: 'fe80:0:0:0:c8a:f216:bd3d:af8c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.6.3', java.version: '17.0.4.1'
-Driver info: driver.version: unknown
-	at com.crm.qa.Testcases.HomePageTest.label(HomePageTest.java:35)
+System info: host: 'Ronaks-MacBook-Pro.local', ip: 'fe80:0:0:0:1060:3a27:285f:c2b0%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.6.3', java.version: '17.0.4.1'
+Driver info: driver.version: RemoteWebDriver
+	at com.crm.qa.Testcases.HomePageTest.setUp(HomePageTest.java:29)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to ec2-54-164-215-226.compute-1.amazonaws.com:4444 [ec2-54-164-215-226.compute-1.amazonaws.com/54.164.215.226] failed: Operation timed out
+	at com.crm.qa.Testcases.HomePageTest.setUp(HomePageTest.java:29)
+Caused by: java.net.ConnectException: Operation timed out
+	at com.crm.qa.Testcases.HomePageTest.setUp(HomePageTest.java:29)
 
-newcontact(com.crm.qa.Testcases.HomePageTest)  Time elapsed: 3.552 s  <<< FAILURE!
-org.openqa.selenium.NoSuchWindowException: 
-no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=110.0.5481.177)
+setup(com.crm.qa.Testcases.LoginPageTest)  Time elapsed: 150.969 s  <<< FAILURE!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
 Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
-System info: host: 'Ronaks-MacBook-Pro.local', ip: 'fe80:0:0:0:c8a:f216:bd3d:af8c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.6.3', java.version: '17.0.4.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}), userDataDir=/var/folders/ln/yd31s0yn78b31d60xy3jwyfr0000gn/T/.com.google.Chrome.PdfGCN}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=MAC, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:63874}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, browserVersion=110.0.5481.177, browserName=chrome, javascriptEnabled=true, platformName=MAC, setWindowRect=true, webauthn:extension:largeBlob=true, webauthn:virtualAuthenticators=true}]
-Session ID: 39816cf465e0e52999bf56179c5f2c3f
-*** Element info: {Using=css selector, value=frame#mainpanel,iframe#mainpanel}
-	at com.crm.qa.Testcases.HomePageTest.newcontact(HomePageTest.java:45)
-
-CreateNewContact(com.crm.qa.Testcases.ContactPageTest)  Time elapsed: 20.173 s  <<< FAILURE!
-org.openqa.selenium.NoSuchFrameException: 
-No frame element found by name or id mainpanel
-Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
-System info: host: 'Ronaks-MacBook-Pro.local', ip: 'fe80:0:0:0:c8a:f216:bd3d:af8c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.6.3', java.version: '17.0.4.1'
-Driver info: driver.version: unknown
-	at com.crm.qa.Testcases.ContactPageTest.CreateNewContact(ContactPageTest.java:47)
-
-CreateNewContact(com.crm.qa.Testcases.ContactPageTest)  Time elapsed: 16.262 s  <<< FAILURE!
-org.openqa.selenium.NoSuchFrameException: 
-No frame element found by name or id mainpanel
-Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
-System info: host: 'Ronaks-MacBook-Pro.local', ip: 'fe80:0:0:0:c8a:f216:bd3d:af8c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.6.3', java.version: '17.0.4.1'
-Driver info: driver.version: unknown
-	at com.crm.qa.Testcases.ContactPageTest.CreateNewContact(ContactPageTest.java:47)
-
-SetUp(com.crm.qa.Testcases.ContactPageTest)  Time elapsed: 18.994 s  <<< FAILURE!
-org.openqa.selenium.NoSuchWindowException: 
-no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=110.0.5481.177)
-Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
-System info: host: 'Ronaks-MacBook-Pro.local', ip: 'fe80:0:0:0:c8a:f216:bd3d:af8c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.6.3', java.version: '17.0.4.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}), userDataDir=/var/folders/ln/yd31s0yn78b31d60xy3jwyfr0000gn/T/.com.google.Chrome.UziU7G}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=MAC, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:64196}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, browserVersion=110.0.5481.177, browserName=chrome, javascriptEnabled=true, platformName=MAC, setWindowRect=true, webauthn:extension:largeBlob=true, webauthn:virtualAuthenticators=true}]
-Session ID: d1f19da59f621fe2acb664ed4284f5e8
-*** Element info: {Using=name, value=username}
-	at com.crm.qa.Testcases.ContactPageTest.SetUp(ContactPageTest.java:29)
-
-validateLogoTest(com.crm.qa.Testcases.LoginPageTest)  Time elapsed: 0.008 s  <<< FAILURE!
-org.openqa.selenium.NoSuchWindowException: 
-no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=110.0.5481.177)
-Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
-System info: host: 'Ronaks-MacBook-Pro.local', ip: 'fe80:0:0:0:c8a:f216:bd3d:af8c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.6.3', java.version: '17.0.4.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}), userDataDir=/var/folders/ln/yd31s0yn78b31d60xy3jwyfr0000gn/T/.com.google.Chrome.xBNsRO}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=MAC, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:64221}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, browserVersion=110.0.5481.177, browserName=chrome, javascriptEnabled=true, platformName=MAC, setWindowRect=true, webauthn:extension:largeBlob=true, webauthn:virtualAuthenticators=true}]
-Session ID: 44e523338ec59b1f8401ba4c351b8b3f
-*** Element info: {Using=xpath, value=/html/body/div[2]/div/div[1]/a/img}
-	at com.crm.qa.Testcases.LoginPageTest.validateLogoTest(LoginPageTest.java:36)
-
-quit(com.crm.qa.Testcases.LoginPageTest)  Time elapsed: 0.094 s  <<< FAILURE!
-org.openqa.selenium.NoSuchWindowException: 
-no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=110.0.5481.177)
-Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
-System info: host: 'Ronaks-MacBook-Pro.local', ip: 'fe80:0:0:0:c8a:f216:bd3d:af8c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.6.3', java.version: '17.0.4.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}), userDataDir=/var/folders/ln/yd31s0yn78b31d60xy3jwyfr0000gn/T/.com.google.Chrome.xBNsRO}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=MAC, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:64221}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, browserVersion=110.0.5481.177, browserName=chrome, javascriptEnabled=true, platformName=MAC, setWindowRect=true, webauthn:extension:largeBlob=true, webauthn:virtualAuthenticators=true}]
-Session ID: 44e523338ec59b1f8401ba4c351b8b3f
-	at com.crm.qa.Testcases.LoginPageTest.quit(LoginPageTest.java:54)
+System info: host: 'Ronaks-MacBook-Pro.local', ip: 'fe80:0:0:0:1060:3a27:285f:c2b0%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.6.3', java.version: '17.0.4.1'
+Driver info: driver.version: RemoteWebDriver
+	at com.crm.qa.Testcases.LoginPageTest.setup(LoginPageTest.java:25)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to ec2-54-164-215-226.compute-1.amazonaws.com:4444 [ec2-54-164-215-226.compute-1.amazonaws.com/54.164.215.226] failed: Operation timed out
+	at com.crm.qa.Testcases.LoginPageTest.setup(LoginPageTest.java:25)
+Caused by: java.net.ConnectException: Operation timed out
+	at com.crm.qa.Testcases.LoginPageTest.setup(LoginPageTest.java:25)
 

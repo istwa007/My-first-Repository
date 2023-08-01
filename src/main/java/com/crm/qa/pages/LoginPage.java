@@ -35,6 +35,7 @@ public class LoginPage extends TestBase{
 	
 // different action on LoginPage	
 	public String validateTitle() {
+		
 		return driver.getTitle();
 	}
 	public boolean validateLogo() {
