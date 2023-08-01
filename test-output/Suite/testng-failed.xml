@@ -6,19 +6,11 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.crm.qa.Testcases.ContactPageTest">
-        <methods>
-          <include name="SetUp"/>
-          <include name="CleanUp"/>
-          <include name="CreateNewContact"/>
-        </methods>
-      </class> <!-- com.crm.qa.Testcases.ContactPageTest -->
       <class name="com.crm.qa.Testcases.LoginPageTest">
         <methods>
-          <include name="loginTest"/>
+          <include name="validatetitletest"/>
           <include name="setup"/>
           <include name="quit"/>
-          <include name="validateLogoTest"/>
         </methods>
       </class> <!-- com.crm.qa.Testcases.LoginPageTest -->
     </classes>

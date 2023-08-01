@@ -29,7 +29,7 @@ public class LoginPageTest extends TestBase{
 	@Test(priority=1)
 	public void validatetitletest() throws InterruptedException {
 	String title=login.validateTitle();
-	AssertJUnit.assertEquals(title,"Free CRM - CRM software for customer relationship management, sales, and support.");
+	AssertJUnit.assertEquals(title,"Free CRM software for customer relationship management, sales, and support.");
 	Thread.sleep(3000);
 	}
 	

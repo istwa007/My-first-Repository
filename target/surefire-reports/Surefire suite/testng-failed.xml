@@ -13,7 +13,7 @@
       </class> <!-- com.crm.qa.Testcases.HomePageTest -->
       <class name="com.crm.qa.Testcases.ContactPageTest">
         <methods>
-          <include name="CreateNewContact" invocation-numbers="0 1"/>
+          <include name="CreateNewContact"/>
           <include name="SetUp"/>
           <include name="CleanUp"/>
         </methods>
@@ -24,6 +24,7 @@
           <include name="validateLogoTest"/>
           <include name="setup"/>
           <include name="loginTest"/>
+          <include name="validatetitletest"/>
         </methods>
       </class> <!-- com.crm.qa.Testcases.LoginPageTest -->
     </classes>
